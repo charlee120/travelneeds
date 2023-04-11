@@ -1,0 +1,661 @@
+/* A2Z Techvalley - Style Sheet */
+
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.explore-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.explore-link-green {
+  color: #828f46;
+  text-decoration: none;
+}
+
+/* Mobile First Design */
+/* Mobile View - Style Sheet */
+
+/* Colors - Change the color code and selector name based on the project theme*/
+
+.dark-green {
+  color: #012604;
+}
+
+.light-green {
+  color: #828f46;
+}
+
+.white {
+  color: #ffffff;
+}
+
+/* Font */
+
+.rancho-font {
+  font-family: "Rancho", cursive;
+  font-weight: 550;
+}
+
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+}
+
+.land-heading {
+  font-size: 12vw;
+}
+
+.heading {
+  /* font-size: 2.2rem; */
+  font-size: 9vw;
+  font-weight: 590;
+}
+
+.subheading {
+  font-size: 1.1rem;
+  width: 95vw;
+}
+
+.land-heading-width {
+  width: 90vw;
+}
+
+.heading-width {
+  width: 250px;
+}
+
+/* Alignment */
+
+.text-center {
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.left {
+  margin-left: 20px;
+  margin-right: auto;
+}
+
+.right {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+/* Card Styles */
+
+.card-size {
+  width: 100px; /* Change the card width based on the design */
+  height: 100px; /* Change the card height based on the design */
+}
+
+.border-radius {
+  border-radius: 15px;
+}
+
+/* Button */
+.button-sl {
+  width: 130px;
+  height: 40px;
+  font-size: 3.7vw;
+
+  background: #828f46;
+  border: 0;
+  border-radius: 5px;
+  margin: 0 auto;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button-lg {
+  width: 160px;
+  height: 50px;
+  font-size: 4.7vw;
+
+  background: #012604;
+  border: 0;
+  border-radius: 5px;
+  margin: 0 auto;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 550;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.whatsapp-icon {
+  position: fixed;
+  width: 50px;
+  margin-bottom: 20px;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+  cursor: pointer;
+}
+
+/* Write addition CSS here */
+
+.package-details-card {
+  width: 93vw;
+  height: auto;
+  background: #ffffff;
+  box-shadow: 10px 0px 40px rgba(0, 0, 0, 0.15),
+    0px 10px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.package-details h1 {
+  width: 78vw;
+  padding-top: 30px;
+  margin-left: 15px;
+}
+
+.close {
+  float: right;
+  font-size: 9vw;
+  margin-top: 30px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #012604;
+}
+
+.close-desk {
+  display: none;
+}
+
+.details-head {
+  font-size: 8vw;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.details {
+  width: 80vw;
+  font-size: 4.7vw;
+  margin: 0 auto;
+  margin-top: 15px;
+  line-height: 30px;
+}
+
+.download-button {
+  width: 240px;
+  height: 50px;
+  font-size: 4.7vw;
+
+  background: #012604;
+  border: 0;
+  border-radius: 5px;
+  margin: 0 auto;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 550;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 35px;
+}
+
+.ratings-head {
+  font-size: 8vw;
+  margin-top: 40px;
+  margin-left: 15px;
+}
+
+.stars-div {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.star {
+  width: 7vw;
+  height: 7vw;
+}
+
+.review {
+  font-size: 4.5vw;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.review-text {
+  width: 70vw;
+  font-size: 4vw;
+  font-weight: 450;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+/* Enquiry Form - A2Z Template - a2ztechvalley2021@gmail.com */
+
+.project-enquiry {
+  margin-top: 100px;
+  padding-bottom: 10vw;
+  background-image: url(../public/background.svg);
+  background-size: cover;
+}
+
+.enquiry-form {
+  width: 80vw;
+  /* height: 700px; */
+  background-color: #ffffff;
+  box-shadow: 4px 4px 33px rgba(1, 38, 4, 0.15);
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 30px;
+  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.project-enquiry-subhead {
+  font-size: 5vw;
+  width: 85vw;
+  font-weight: 500;
+  text-align: center;
+  margin: 5px 0 50px 0;
+}
+
+.e-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-title {
+  font-size: 5vw;
+  font-weight: 600;
+  color: #012604;
+}
+
+.form-input {
+  width: 70vw;
+  height: 5vw;
+  border-radius: 10px;
+  border: 0;
+  border: solid 2px #eff0f6;
+  outline: none;
+
+  font-size: 4vw;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.form-input:focus {
+  color: #828f46;
+  border: solid 2px #828f46;
+}
+
+.form-select-input {
+  width: 75vw;
+  height: 11vw;
+  border-radius: 10px;
+  border: 0;
+  border: solid 2px #eff0f6;
+  outline: none;
+  background-color: #ffffff;
+
+  font-size: 4vw;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.form-select-input:focus {
+  color: #828f46;
+  border: solid 2px #828f46;
+}
+
+.form-para-input {
+  border-radius: 10px;
+  border: 0;
+  border: solid 2px #eff0f6;
+  outline: none;
+  background-color: #ffffff;
+
+  font-size: 4vw;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.form-para-input:focus {
+  color: #828f46;
+  border: solid 2px #4a3aff;
+}
+
+.violet-button {
+  width: 120.34px;
+  height: 35px;
+  font-size: 5.5vw;
+
+  background: #012604;
+  border: 0;
+  border-radius: 5px;
+  margin: 0 auto;
+
+  font-family: "Rancho", cursive;
+  font-weight: 550;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* Tablets and Large Screen mobile View - Style Sheet */
+
+/* Paste the below code in the respective Media Query */
+
+@media only screen and (min-width: 641px) {
+  /* Font */
+  .land-heading {
+    font-size: 9vw;
+  }
+
+  .heading {
+    font-size: 7vw;
+  }
+
+  .subheading {
+    font-size: 3.5vw;
+  }
+
+  .land-heading-width {
+    width: 80vw;
+  }
+
+  .heading-width {
+    width: 300px;
+  }
+
+  /* Card Styles */
+
+  .card-size {
+    width: 100px; /* Change the card width based on the design */
+    height: 100px; /* Change the card height based on the design */
+  }
+
+  /* Button */
+  .button-sl {
+    width: 20vw;
+    height: 55px;
+    font-size: 3vw;
+  }
+
+  .button-lg {
+    width: 25vw;
+    height: 7vw;
+    font-size: 3vw;
+  }
+
+  .whatsapp-icon {
+    width: 70px;
+  }
+
+  /* Package details card */
+
+  .package-details h1 {
+    font-size: 6vw;
+    margin-left: 35px;
+  }
+
+  .details-head {
+    font-size: 4vw;
+    margin-left: 35px;
+  }
+
+  .close {
+    font-size: 5vw;
+    margin-right: 30px;
+  }
+
+  .close-desk {
+    display: none;
+  }
+
+  .details {
+    font-size: 2.3vw;
+  }
+
+  .download-button {
+    width: 32vw;
+    height: 7vw;
+    font-size: 3vw;
+  }
+
+  /* Project Enquiry */
+
+  .enquiry-form {
+    width: 80vw;
+  }
+
+  .enquiry-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0 30px 0;
+  }
+
+  .form-title {
+    font-size: 3.8vw;
+    /* margin-top: 10px; */
+  }
+
+  .project-enquiry-head {
+    font-size: 6vw;
+  }
+
+  .project-enquiry-subhead {
+    font-size: 3vw;
+  }
+
+  .form-title {
+    font-size: 3vw;
+  }
+
+  .form-input {
+    height: 5vw;
+    width: 68vw;
+    font-size: 2.5vw;
+  }
+
+  .form-select-input {
+    height: 9vw;
+    width: 68vw;
+    font-size: 2.5vw;
+  }
+
+  .form-para-input {
+    font-size: 2.5vw;
+    height: 15vw;
+    width: 70vw;
+  }
+
+  .violet-button {
+    width: 25vw;
+    height: 7vw;
+    font-size: 4vw;
+  }
+}
+
+/* Laptops & Computers View - Style Sheet */
+
+/* Paste the below code in the respective Media Query */
+
+@media only screen and (min-width: 1008px) {
+  /* Font */
+  .land-heading {
+    font-size: 5.5vw;
+  }
+
+  .heading {
+    font-size: 5vw;
+  }
+
+  .subheading {
+    font-size: 1.5rem;
+  }
+
+  .land-heading-width {
+    width: 50vw;
+  }
+
+  .heading-width {
+    width: 25vw;
+  }
+
+  /* Card Styles */
+
+  .card-size {
+    width: 100px; /* Change the card width based on the design */
+    height: 100px; /* Change the card height based on the design */
+  }
+
+  /* Button */
+  .button-sl {
+    width: 9vw;
+    height: 3vw;
+    font-size: 1.2vw;
+  }
+
+  .button-lg {
+    width: 12.5vw;
+    height: 4vw;
+    font-size: 1.5vw;
+  }
+
+  .whatsapp-icon {
+    width: 60px;
+  }
+
+  /* Package details card */
+
+  .package-details-card {
+    display: flex;
+    justify-content: center;
+  }
+
+  .package-details h1 {
+    font-size: 3vw;
+    width: 40vw;
+  }
+
+  .close {
+    display: none;
+  }
+
+  .close-desk {
+    display: block;
+    position: absolute;
+    font-size: 3vw;
+    margin-top: 30px;
+    margin-left: 43vw;
+    text-decoration: none;
+    color: #012604;
+  }
+
+  .details-head {
+    font-size: 2.4vw;
+  }
+
+  .details {
+    width: 40vw;
+    font-size: 1.3vw;
+    margin-left: 50px;
+  }
+
+  .download-button {
+    width: 16vw;
+    height: 4vw;
+    font-size: 1.5vw;
+  }
+
+  /* Project Enquiry */
+
+  .project-enquiry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -50px;
+    padding-bottom: 0vw;
+    height: 100vh;
+    margin-left: 40px;
+  }
+
+  .enquiry-form {
+    margin-top: 0;
+    padding-left: 0;
+  }
+
+  .project-enquiry-title {
+    text-align: left;
+    width: 40vw;
+    height: 30vw;
+    margin-left: 30px;
+  }
+
+  .project-enquiry-head {
+    display: none;
+    font-size: 3vw;
+    margin-right: 0vw;
+  }
+
+  .project-enquiry-subhead {
+    display: none;
+    font-size: 1.5vw;
+    width: 30vw;
+    text-align: left;
+  }
+
+  .enquiry-form {
+    display: flex;
+    justify-content: center;
+    width: 36vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+  }
+
+  .form-title {
+    font-size: 1.2vw;
+  }
+
+  .form-input {
+    width: 30vw;
+    height: 1.3vw;
+    font-size: 1vw;
+  }
+
+  .form-select-input {
+    width: 32vw;
+    height: 2.9vw;
+    font-size: 1vw;
+  }
+
+  .form-para-input {
+    font-size: 1vw;
+    height: 5vw;
+    width: 30vw;
+  }
+
+  .violet-button {
+    width: 9vw;
+    height: 2.7vw;
+    font-size: 1.5vw;
+  }
+}

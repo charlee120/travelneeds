@@ -1,0 +1,940 @@
+/* A2Z Techvalley - Style Sheet */
+
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.explore-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.explore-link-green {
+  color: #828f46;
+  text-decoration: none;
+}
+
+/* Mobile First Design */
+/* Mobile View - Style Sheet */
+
+/* Colors - Change the color code and selector name based on the project theme*/
+
+.dark-green {
+  color: #012604;
+}
+
+.light-green {
+  color: #828f46;
+}
+
+.white {
+  color: #ffffff;
+}
+
+/* Font */
+
+.rancho-font {
+  font-family: "Rancho", cursive;
+  font-weight: 550;
+}
+
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+}
+
+.land-heading {
+  font-size: 12vw;
+}
+
+.heading {
+  /* font-size: 2.2rem; */
+  font-size: 11vw;
+  font-weight: 590;
+}
+
+.subheading {
+  font-size: 1.1rem;
+  width: 95vw;
+}
+
+.land-heading-width {
+  width: 90vw;
+}
+
+.heading-width {
+  width: 250px;
+}
+
+/* Alignment */
+
+.text-center {
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.left {
+  margin-left: 20px;
+  margin-right: auto;
+}
+
+.right {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+/* Card Styles */
+
+.card-size {
+  width: 100px; /* Change the card width based on the design */
+  height: 100px; /* Change the card height based on the design */
+}
+
+.border-radius {
+  border-radius: 15px;
+}
+
+/* Button */
+.button-sl {
+  width: 130px;
+  height: 40px;
+  font-size: 3.7vw;
+
+  background: #828f46;
+  border: 0;
+  border-radius: 5px;
+  margin: 0 auto;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button-lg {
+  width: 160px;
+  height: 50px;
+  font-size: 4.7vw;
+
+  background: #012604;
+  border: 0;
+  border-radius: 5px;
+  margin: 0 auto;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 550;
+  color: #ffffff;
+  cursor: pointer;
+}
+/* Write addition CSS here */
+
+/* Navigation Bar - A2Z Techvalley Template - a2ztechvalley2021@gmail.com - www.a2ztechvalley.com */
+
+.navbar {
+  position: absolute;
+  /* position: fixed; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  width: 100vw;
+  height: 70px;
+  background: rgba(1, 38, 4, 0.3);
+}
+
+.logo {
+  width: 50vw;
+  margin-right: 35vw;
+}
+
+.burger_menu {
+  position: relative;
+  /* margin-left: 70vw; */
+  transform: scale(1.5);
+}
+
+.links {
+  display: none;
+}
+
+/* Navbar test */
+
+.navbar_elements_div {
+  display: none;
+}
+
+.navbar_elements_burger_div {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 3rem;
+  width: 100%;
+  color: white;
+  font-family: "Suez One", serif;
+  background-color: #17252a;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.navbar_elements_burger_div a {
+  font-size: 5.5vw;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #012604;
+}
+
+.burger_menu {
+  display: block;
+}
+
+.active {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 4.4rem;
+  width: 100%;
+  color: white;
+  background: #ffffff;
+}
+
+.whatsapp-icon {
+  position: fixed;
+  width: 50px;
+  margin-bottom: 20px;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+  cursor: pointer;
+}
+
+/* Best Packages Page - Developed by Shrreya - 9894816748 - shrreyaram@gmail.com */
+
+.packages {
+  padding-top: 100px;
+}
+
+.manali-packages,
+.kashmir-packages,
+.andaman-packages,
+.kerala-packages,
+.other-packages {
+  margin-top: 60px;
+}
+
+.packages-div {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+}
+
+.pack-color {
+  color: #0126040a;
+  font-size: 14vw;
+  margin: 0 auto;
+  width: 100vw;
+  position: absolute;
+}
+
+.package-color {
+  width: 83vw;
+  margin: 0 auto;
+  font-size: 10vw;
+  font-weight: 590;
+  position: relative;
+}
+
+.packages-cards-div {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+}
+
+.manyboxex {
+  display: flex;
+  flex-direction: column;
+}
+
+.package-card {
+  width: 85vw;
+  height: auto;
+  background-color: white;
+  margin-top: 40px;
+  border-radius: 15px;
+  box-shadow: -2px 0px 10px rgba(0, 0, 0, 0.13),
+    2px 4px 16px rgba(0, 0, 0, 0.13);
+  cursor: pointer;
+}
+
+.imgboxex {
+  padding-bottom: 25px;
+  background-color: white;
+  border-radius: 15px;
+
+  width: 85vw;
+  height: auto;
+  text-align: center;
+}
+
+.imgitslf {
+  width: 76vw;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.fontitslf {
+  margin-left: 7vw;
+  height: 5vw;
+  width: 5vw;
+}
+
+.fontsbox {
+  display: flex;
+  margin-bottom: 2vw;
+}
+
+.fontstxt {
+  color: #c3c3c3;
+  font-size: 3vw;
+  margin-left: 1vw;
+}
+
+.package-head {
+  font-size: 7vw;
+  margin: -15px 0 15px 20px;
+  font-weight: 590;
+  width: 70vw;
+}
+
+.star {
+  height: 4vw;
+  width: 4vw;
+}
+
+.yelstars {
+  display: flex;
+  margin-left: 15px;
+  padding-bottom: 4vw;
+}
+
+.startxt {
+  font-size: 4vw;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.checkdesk {
+  display: none;
+}
+
+.minibox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Footer Card Section - Developed by Surya Narayanan - 6380552829 - r.suryajeya@gmail.com */
+
+.getstartedbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(130, 143, 70, 0.6);
+  height: auto;
+  width: 88vw;
+  border-radius: 3vw;
+  padding-top: 15vw;
+  padding-bottom: 10vw;
+  margin-top: 10vw;
+}
+
+.getstarted {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: yellow; */
+}
+
+.getstarttext2desk {
+  width: 75vw;
+  font-size: 4.5vw;
+  font-weight: 450;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.getstarttext1 {
+  font-size: 10vw;
+  font-weight: 590;
+}
+
+/* Footer - A2Z Techvalley Template - a2ztechvalley2021@gmail.com */
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: auto;
+  background-color: #012604;
+  padding-bottom: 30px;
+  margin-top: 60px;
+}
+
+.footer-heading {
+  font-size: 8vw;
+  width: 95vw;
+}
+
+.company-details {
+  margin-top: 10px;
+}
+
+.footer-left-details-div {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.social-media-text {
+  width: 150px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 4vw;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: row;
+}
+
+.icon-div {
+  width: 35px;
+  filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(197deg)
+    brightness(110%) contrast(101%);
+  margin-right: 15px;
+  transform: scale(0.8);
+}
+
+.icon-div:hover {
+  filter: invert(55%) sepia(12%) saturate(1475%) hue-rotate(30deg)
+    brightness(95%) contrast(92%);
+}
+
+.footer-details {
+  margin-top: 40px;
+  margin-right: 30px;
+}
+
+.footer-details h2 {
+  font-size: 7.5vw;
+}
+
+.footer-right-details-div {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto;
+  /* margin-top: 30px; */
+  /* margin-right: 13vw; */
+  /* float: left; */
+  margin-left: 20px;
+  margin-right: auto;
+}
+
+.footer-number,
+.footer-mail {
+  margin-top: 5px;
+  font-size: 3.8vw;
+}
+
+.footer-address {
+  margin-top: 5px;
+  font-size: 3.8vw;
+}
+
+.footer-address {
+  margin-top: 5px;
+  font-size: 3.8vw;
+}
+
+.icon-div-icon {
+  filter: invert(100%) sepia(0%) saturate(7488%) hue-rotate(106deg)
+    brightness(98%) contrast(97%);
+}
+
+.footer-mail:hover {
+  color: #828f46;
+  font-size: 1.15rem;
+  transition: 0.5s;
+}
+
+/* Tablets and Large Screen mobile View - Style Sheet */
+
+/* Paste the below code in the respective Media Query */
+
+@media only screen and (min-width: 641px) {
+  /* Font */
+  .land-heading {
+    font-size: 9vw;
+  }
+
+  .heading {
+    font-size: 7vw;
+  }
+
+  .subheading {
+    font-size: 3.5vw;
+  }
+
+  .land-heading-width {
+    width: 80vw;
+  }
+
+  .heading-width {
+    width: 300px;
+  }
+
+  /* Card Styles */
+
+  .card-size {
+    width: 100px; /* Change the card width based on the design */
+    height: 100px; /* Change the card height based on the design */
+  }
+
+  /* Button */
+  .button-sl {
+    width: 20vw;
+    height: 55px;
+    font-size: 3vw;
+  }
+
+  .button-lg {
+    width: 25vw;
+    height: 7vw;
+    font-size: 3vw;
+  }
+
+  /* Navigation Bar - A2Z Techvalley Template - a2ztechvalley2021@gmail.com - www.a2ztechvalley.com */
+
+  .navbar {
+    height: 80px;
+  }
+
+  .logo {
+    width: 38vw;
+    margin-right: 50vw;
+  }
+
+  .burger_menu {
+    transform: scale(1.8);
+  }
+
+  .navbar_elements_burger_div a {
+    font-size: 3vw;
+  }
+
+  .whatsapp-icon {
+    width: 70px;
+  }
+
+  /* Best Packages Page - Developed by Shrreya - 9894816748 - shrreyaram@gmail.com */
+
+  .pack-color {
+    font-size: 13vw;
+  }
+
+  .package-color {
+    font-size: 7.5vw;
+    padding-top: 25px;
+  }
+
+  .packages-div {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 30px;
+  }
+
+  .package-card {
+    width: 43vw;
+    height: auto;
+  }
+
+  .imgboxex {
+    width: 43vw;
+  }
+
+  .imgitslf {
+    width: 37vw;
+    height: auto;
+  }
+
+  .fontstxt {
+    font-size: 1vw;
+  }
+
+  .package-head {
+    font-size: 4vw;
+    width: 40vw;
+    margin: -15px 0 15px 30px;
+  }
+
+  .yelstars {
+    margin-left: 25px;
+  }
+
+  .star {
+    height: 2.5vw;
+    width: 2.5vw;
+  }
+
+  .startxt {
+    font-size: 2vw;
+  }
+
+  /* Footer Card Section - Developed by Surya Narayanan - 6380552829 - r.suryajeya@gmail.com */
+
+  .getstartedbox {
+    padding-top: 9vw;
+  }
+
+  .getstarttext2desk {
+    font-size: 3.5vw;
+  }
+
+  .getstarttext1 {
+    font-size: 9vw;
+  }
+
+  /* Footer - A2Z Techvalley Template - a2ztechvalley2021@gmail.com */
+
+  .footer {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    align-items: baseline;
+    /* padding-left: 30px; */
+    /* flex-direction: row; */
+  }
+
+  .footer-details {
+    margin-left: 0vw;
+  }
+
+  .icon-div {
+    width: 45px;
+    transform: scale(0.95);
+    margin-right: 20px;
+  }
+
+  .company-details {
+    width: 400px;
+    font-size: 3vw;
+  }
+
+  .social-media-text {
+    font-size: 3.2vw;
+    width: 250px;
+  }
+
+  .footer-details h2 {
+    font-size: 5vw;
+  }
+
+  .footer-number {
+    font-size: 3vw;
+    margin-top: 5px;
+  }
+
+  .footer-mail {
+    font-size: 3vw;
+    margin-top: 5px;
+  }
+
+  .footer-address {
+    margin-top: 15px;
+    font-size: 3vw;
+    width: 40vw;
+  }
+
+  .footer-address {
+    margin-top: 15px;
+    font-size: 3vw;
+    width: 40vw;
+  }
+
+  .footer-mail:hover {
+    color: #828f46;
+    font-size: 1.55rem;
+    transition: 0.5s;
+  }
+}
+
+/* Laptops & Computers View - Style Sheet */
+
+/* Paste the below code in the respective Media Query */
+
+@media only screen and (min-width: 1008px) {
+  /* Font */
+  .land-heading {
+    font-size: 5.5vw;
+  }
+
+  .heading {
+    font-size: 5vw;
+  }
+
+  .subheading {
+    font-size: 1.5rem;
+  }
+
+  .land-heading-width {
+    width: 50vw;
+  }
+
+  .heading-width {
+    width: 25vw;
+  }
+
+  /* Card Styles */
+
+  .card-size {
+    width: 100px; /* Change the card width based on the design */
+    height: 100px; /* Change the card height based on the design */
+  }
+
+  /* Button */
+  .button-sl {
+    width: 9vw;
+    height: 3vw;
+    font-size: 1.2vw;
+  }
+
+  .button-lg {
+    width: 12.5vw;
+    height: 4vw;
+    font-size: 1.5vw;
+  }
+
+  /* Navigation Bar - A2Z Techvalley Template - a2ztechvalley2021@gmail.com - www.a2ztechvalley.com */
+
+  .navbar {
+    margin-top: 0;
+  }
+
+  .logo {
+    width: 17vw;
+    margin-right: 45vw;
+  }
+
+  .links {
+    display: flex;
+    font-weight: 600;
+  }
+
+  .links p {
+    font-size: 1.4vw;
+    margin-left: 35px;
+    cursor: pointer;
+    font-weight: 450;
+  }
+
+  .links p:hover {
+    color: #012604;
+    transition: 0.2s;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .burger_menu {
+    display: none;
+  }
+
+  .navbar_elements_burger_div {
+    display: none;
+  }
+
+  .whatsapp-icon {
+    width: 60px;
+  }
+
+  /* Best Packages Page - Developed by Shrreya - 9894816748 - shrreyaram@gmail.com */
+
+  .pack-color {
+    font-size: 8vw;
+  }
+
+  .package-color {
+    font-size: 4vw;
+    padding-top: 35px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .packages-div {
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+    row-gap: 50px;
+  }
+
+  .package-card {
+    width: 27.7vw;
+  }
+
+  .imgboxex {
+    width: 27.7vw;
+  }
+
+  .imgitslf {
+    width: 24.3vw;
+  }
+
+  .package-head {
+    font-size: 2.5vw;
+    width: 20vw;
+  }
+
+  .yelstars {
+    padding-bottom: 30px;
+  }
+
+  .star {
+    width: 1.5vw;
+    height: 1.5vw;
+  }
+
+  .startxt {
+    font-size: 1.3vw;
+  }
+
+  /* Footer Card Section - Developed by Surya Narayanan - 6380552829 - r.suryajeya@gmail.com */
+
+  .getstarted {
+    margin-top: 100px;
+  }
+
+  .getstarttext2 {
+    display: none;
+  }
+
+  .getstartedbox {
+    width: 90vw;
+    /* height: 20vw; */
+    border-radius: 1vw;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 70px;
+  }
+  .getstarttext1 {
+    font-size: 6vw;
+    margin-top: 0vw;
+    margin-top: 5vw;
+  }
+
+  .getstarttext2desk {
+    margin-top: 2vw;
+    font-size: 1.5vw;
+    width: 550px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+
+  /* Footer - A2Z Techvalley Template - a2ztechvalley2021@gmail.com */
+
+  .footer {
+    flex-direction: row;
+  }
+
+  .footer-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3vw;
+  }
+
+  .footer-heading {
+    font-size: 4vw;
+    width: 40vw;
+  }
+
+  .icon-div {
+    width: 40px;
+    cursor: pointer;
+  }
+
+  .footer-left-details-div {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .company-details {
+    width: 20vw;
+    font-size: 1.1rem;
+  }
+
+  .footer-details {
+    margin-right: 0;
+  }
+
+  .social-media-text {
+    font-size: 1.5rem;
+    width: 250px;
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+
+  .footer-details h2 {
+    font-size: 3vw;
+  }
+
+  .footer-right-details-div {
+    display: flex;
+    align-items: baseline;
+    margin-left: 10vw;
+    margin-right: 0;
+  }
+
+  .footer-mail {
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+
+  .footer-number {
+    font-size: 1.1rem;
+  }
+
+  .footer-address {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    width: 250px;
+  }
+
+  .footer-mail:hover {
+    color: #828f46;
+    font-size: 1.15rem;
+    transition: 0.5s;
+  }
+}

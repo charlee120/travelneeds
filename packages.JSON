@@ -1,0 +1,72 @@
+{
+    "data" : [
+        {
+            "heading" : "Goa Full Week Maja pack",
+            "subheading" : {
+                "details" : "₹11,499.00 GOA FULL WEEK MAJA -  ₹ 11, 499 ONLY <br> 4Nights/5Days Completely in Goa<br>(Note : To Customize package For extra Days Whatsapp us Directly)<br>",
+                "inclusion" : "✔ One way Train Fare<br>✔ 4 Nights Room Stay<br>(AC ROOM - SWIMMING POOL + BALCONY + BAR/ RESTAURANT)<br>(10 min travel time from baga & Calungute beach)<br>✔ Breakfast,lunch and Dinner for all days in goa<br>(limited with 1 time nonveg / day )<br>3 Days North & South Goa Sightseeings Itenery ⬇️⬇️<br>",
+                "days" : [
+                    {
+                        "heading" : "✔ Day 1 : North goa Tour",
+                        "subheading" : "(2 wheelers for sightseeings)",
+
+                        "placesToVisit" : [
+                            "AGUDA FORT", "CONDOLIM beach", "SIQURIUM" , "CALUNGUTE BEACH"
+                        ]
+                    },
+
+                    {
+                        "heading" : "✔ DAY 2 : ANJUNA Special tour",
+                        "subheading" : "(2 wheelers for sightseeings)",
+
+                        "placesToVisit" : [
+                            "Anjuna Beach", "Vagator Beach", "Chapora Fort", "Baga Beach"
+                        ]
+                    },
+
+                    {
+                        "heading" : "✔ DAY 3 : South goa tour",
+                        "subheading" : "(2 wheelers for sightseeings)",
+
+                        "placesToVisit" : [
+                            "OLD GOA CHURCH", "MANGESHI TEMPLE", "MIRAMUR", "DONA PAUL", "PANJIM SHOPPING"
+                        ]
+                    },
+
+                    {
+                        "heading" : "✔ DAY 4 : SCUBA DIVING + WATER SPORTS",
+                        "subheading" : "(This package complete Consists of All water sports in Goa)",
+
+                        "placesToVisit" : [
+                            "Pickup from Your place/Hotel ", " Breakfast (Regular ", " Tempo / Bus for traveling to Diving plac ", " First 20 min : Scuba Suit setup & training for Scuba diving ", " No extra for scuba kit (FREE ", " Next 20 min : Diving & sightseeing under water + FREE VIDEO ", " Lunch ( veg/non veg - ur choice ", " WATER SPORTS - speed boat ", " para sailing ", " Jetski Rid ", " Banana Ride ", " Bumper boat (option ", " Return Drop to your place / Hote "
+                        ]
+                    },
+
+                    {
+                        "heading" : "✔ DAY 5 : DUDHSAGAR WATERFALLS TRIP 😍",
+                        "subheading" : " *Departure Time* : 6:00 AM - 6:30 AM<br> *Departure Location* : Pickup from our Hotel<br>",
+
+                        "placesToVisit" : [
+                        ]
+                    }
+                ]
+            },
+
+            "inclusion" : [
+                "Pick up and Drop Off ", "Jeep Safari to the Falls ", "Swimming with Safety Jacket ", "Guided Spice Plantation Tour ", "Visit to Old Goa Churches ", "All Entry Fees ", "Local Tour co ordinator "
+            ],
+
+            "exclusion" : [
+                "Enteries for Pubs & other Activities ", "Pick-up & Drop"
+            ],
+
+            "advancePrice" : "₹1500",
+
+            "importantNote" : {
+                "data" : [
+                    "Eligibility : Min 4 persons", "This price is for per person", "Further Arrangements for Discothe pub , Trekking activities , Island party ,Para sailing, Massage etc can be arranged at DISCOUNT RATE"
+                ]
+            }
+        }
+    ]
+}

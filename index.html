@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourista Travelneeds</title>
+    <!-- This website is developer by A2Z Techvalley (www.a2ztechvalley.com) -->
+
+    <link rel="stylesheet" href="style.css?v=2">
+
+
+    <!-- Font Family - Rancho and Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rancho&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="popup">
+        <button id="close">&times;</button>
+        <h2 style="padding-bottom: 5vh;">Fill your Plans!</h2>
+        
+            <div class="fom">
+                <form class="e-form" action="https://formsubmit.co/touristatravelneeds@gmail.com" method="POST">
+                    <label class="form-title" for="fname">Name</label>
+                    <input class="form-input" type="text" name="name" placeholder="Name" autoComplete="None" required />
+
+                    
+
+                    <label class="form-title" for="mnumber">Phone Number</label>
+                    <input class="form-input" type="number" name="mobile" placeholder="Mobile"
+                        autoComplete="None" required />
+
+                    
+
+                    <label class="form-title" for="fname">Travel Location</label>
+                     <input type="text" class="form-input" name="mobile" placeholder="Location" autoComplete="None" required>
+
+                    
+
+                    <button class="violet-button" style="background: rgb(59, 88, 15);">Submit</button>
+                </form>
+            </div>
+    </div>
+    <!-- Navigation Bar - A2Z Techvalley Template - a2ztechvalley2021@gmail.com -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <a href="./index.html"><img class="logo" src="./Assets/Travel Needs White logo.png" alt=""></a>
+        </div>
+
+        <div class="links roboto-font">
+            <a href="./index.html#explore" class="explore-link">
+                <p>Discover</p>
+            </a>
+            <a href="./index.html#values" class="explore-link">
+                <p>Values</p>
+            </a>
+            <a href="./packages.html" class="explore-link">
+                <p>Best Packages</p>
+            </a>
+            <!-- <a href="#" class="explore-link"><p>About Us</p></a> -->
+            <a href="#contact" class="explore-link">
+                <p>Contact</p>
+            </a>
+        </div>
+
+        <div class="burger_menu"><img onclick="burger_navbar()" src="./Assets/burger.svg"></div>
+
+
+        <div class="navbar_elements_burger_div" id="navbar_elements_burger_div">
+            <a href="./index.html#explore" class="explore-link roboto-font" onclick="burger_navbar_close()">
+                <p>Discover</p>
+            </a>
+            <a href="./index.html#values" class="explore-link roboto-font" onclick="burger_navbar_close()">
+                <p>Values</p>
+            </a>
+            <a href="./packages.html" class="explore-link roboto-font" onclick="burger_navbar_close()">
+                <p>Best Packages</p>
+            </a>
+            <!-- <a href="#" class="explore-link" onclick="burger_navbar_close()"><p>About Us</p></a> -->
+            <a href="#contact" class="explore-link roboto-font" onclick="burger_navbar_close()">
+                <p>Contact</p>
+            </a>
+        </div>
+    </nav>
+
+    <div><a href="https://wa.me/c/919585800227"><img class="whatsapp-icon right" src="./Assets/whatsapp.png" alt="">
+    </div></a>
+
+    <!-- Landing Page - Developed by Vishal - 9498844532 - vishalchinns1650@gmail.com -->
+
+    <div class="landing-page">
+
+        <div class="landing-background center center-column">
+            <h1 class="land-heading rancho-font dark-green center text-center land-heading-width land-top">
+                Plan Your Trip with
+                Tourista Travelneeds
+            </h1>
+
+            <p class="center text-center subheading dark-green roboto-font land-description">
+                Our Company Missions is Clear to deliver you Stress-Free tours all over India by providing the best
+                services!
+            </p>
+
+            <a href="#explore" class="explore-link"><button class="button-lg center land-button">
+                    Explore
+
+                    <div class="button-icon"><img src="./Assets/explore-icon.svg" alt="explore-icon"></div>
+                </button></a>
+        </div>
+
+    </div>
+
+    <!-- Find Popular Destination Section - Developed by Achyuth - 6381552723 - achyuth2511@gmail.com -->
+
+    <div class="our-destinations" id="explore">
+        <div class="our-destination-heading">
+            <h1 class="heading dark-green left rancho-font heading-width">
+                Find <span class="light-green"> Popular </span> Destinations
+            </h1>
+        </div>
+
+        <div class="destination-cards-div">
+
+            <div class="destination-grid2">
+                <div class="card" data-aos="zoom-in">
+                    <img src="./Assets/goa.png" class="destination-img" alt="goa-image">
+                    <p class="rancho-font card-head">Goa</p>
+                    <p class="roboto-font card-sub">Explore the beauty of Goa at affordable prices and best class
+                        services. </p>
+                    <a href="./packages.html#goa-packages"><button class="button-sl">Explore</button></a>
+                </div>
+
+                <div class="card" data-aos="zoom-in">
+                    <img src="./Assets/manali.png" class="destination-img" alt="manali-image">
+                    <p class="rancho-font card-head">Manali</p>
+                    <p class="roboto-font card-sub">Explore the beauty of Manali at affordable prices and best class
+                        services. </p>
+                    <a href="./packages.html#manali-packages"><button class="button-sl">Explore</button> </a>
+                </div>
+
+                <div class="card" data-aos="zoom-in">
+                    <img src="./Assets/kashmir.png" class="destination-img" alt="kashmir-image">
+                    <p class="rancho-font card-head">Kashmir</p>
+                    <p class="roboto-font card-sub">Explore the beauty of Kashmir at affordable prices and best class
+                        services. </p>
+                    <a href="./packages.html#kashmir-packages"><button class="button-sl">Explore</button></a>
+                </div>
+            </div>
+
+            <div class="destination-grid2">
+
+                <div class="card" data-aos="zoom-in">
+                    <img src="./Assets/andaman.png" class="destination-img" alt="andaman-image">
+                    <p class="rancho-font card-head">Andaman</p>
+                    <p class="roboto-font card-sub">Explore the beauty of Andaman at affordable prices and best class
+                        services. </p>
+                    <a href="./packages.html#andaman-packages"><button class="button-sl">Explore</button></a>
+                </div>
+
+                <div class="card" data-aos="zoom-in">
+                    <img src="./Assets/kerala.png" class="destination-img" alt="kerala-image">
+                    <p class="rancho-font card-head">Kerala</p>
+                    <p class="roboto-font card-sub">Explore the beauty of Kerala at affordable prices and best class
+                        services. </p>
+                    <a href="./packages.html#kerala-packages"><button class="button-sl">Explore</button></a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Check out the Best Packages Section - Developed by Shrreya & Surya - 9894816748 - shrreyaram@gmail.com -->
+
+    <div class="our-best-packages">
+        <div class="our-packages-heading-div">
+            <h1 class="heading dark-green left rancho-font heading-width">
+                Check out the <span class="light-green"> Best Packages! </span>
+            </h1>
+
+            <p class="light-green roboto-font our-packages-subhead"><a href="./packages.html"
+                    class="explore-link-green"> Explore </a></p>
+        </div>
+
+        <div class="packages-cards-div">
+
+            <div class="packages-card-grid1">
+
+                <a href="./packages.html#goa-packages" class="explore-nolink">
+                    <div class="package-card" data-aos="zoom-in-up">
+                        <div class="imgboxex">
+                            <img class="imgitslf" src="./Assets/Packages-Assets/goa-pack 1.jpeg" alt="GOA">
+                        </div>
+
+                        <h1 class="rancho-font dark-green package-head">Goa Full Week Maja Pack</h1>
+
+                        <div class="yelstars">
+                            <img class="star" src="./Assets/star.png" alt="">
+                            <img class="star" src="./Assets/star.png" alt="">
+                            <img class="star" src="./Assets/star.png" alt="">
+                            <img class="star" src="./Assets/star.png" alt="">
+                            <img class="star" src="./Assets/star.png" alt="">
+                            <h1 class="roboto-font startxt">11k+ Reviews</h1>
+                        </div>
+                    </div>
+                </a>
+
+
+                <a href="./packages.html#manali-packages" class="explore-nolink">
+                    <div class="package-card" data-aos="zoom-in">
+                        <div class="imgboxex">
+                            <img class="imgitslf" src="./Assets/Packages-Assets/manali-pack-2.jpg" alt="MANALI">
+                        </div>
+
+
+                        <h1 class="rancho-font dark-green package-head">Manali Honeymoon Package -> (3N/4D)</h1>
+
+                        <div class="yelstars">
+                            <img class="star" src="./Assets/star.png" alt="">
+                            <img class="star" src="./Assets/star.png" alt="">
+                            <img class="star" src="./Assets/star.png" alt="">
+                            <img class="star" src="./Assets/star.png" alt="">
+                            <img class="star" src="./Assets/star.png" alt="">
+                            <h1 class="roboto-font startxt">5k+ Reviews</h1>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="./packages.html#kashmir-packages" class="explore-nolink">
+                    <div class="package-card" data-aos="zoom-in">
+                        <div class="imgboxex">
+                            <img class="imgitslf" src="./Assets/Packages-Assets/kashmir-pack.jpeg" alt="KASHMIR">
+                        </div>
+
+
+                        <h1 class="rancho-font dark-green package-head">Kashmir Couple Tour Package -> (4N/5D) </h1>
+
+                        <div class="yelstars">
+                            <img class="star" src="./Assets/star.png" alt="">
+                            <img class="star" src="./Assets/star.png" alt="">
+                            <img class="star" src="./Assets/star.png" alt="">
+                            <img class="star" src="./Assets/star.png" alt="">
+                            <img class="star" src="./Assets/star.png" alt="">
+                            <h1 class="roboto-font startxt">1.5k+ Reviews</h1>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="packages-card-grid2">
+
+                <a href="./packages.html#andaman-packages" class="explore-nolink">
+                    <div class="package-card" data-aos="zoom-in">
+                        <div class="imgboxex">
+                            <img class="imgitslf" src="./Assets/Packages-Assets/andaman-pack-1.jpg" alt="ANDAMAN">
+                        </div>
+
+
+                        <h1 class="rancho-font dark-green package-head">Andaman Tour Package -> (4N/5D)</h1>
+
+                        <div class="yelstars">
+                            <img class="star" src="./Assets/star.png" alt="">
+                            <img class="star" src="./Assets/star.png" alt="">
+                            <img class="star" src="./Assets/star.png" alt="">
+                            <img class="star" src="./Assets/star.png" alt="">
+                            <img class="star" src="./Assets/star.png" alt="">
+                            <h1 class="roboto-font startxt">4k+ Reviews</h1>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="./packages.html#kerala-packages" class="explore-nolink">
+                    <div class="package-card" data-aos="zoom-in">
+                        <div class="imgboxex">
+                            <img class="imgitslf" src="./Assets/kerala-pack.jpg" alt="KERALA">
+                        </div>
+
+
+                        <h1 class="rancho-font dark-green package-head">Munnar Honeymoon Tour</h1>
+
+                        <div class="yelstars">
+                            <img class="star" src="./Assets/star.png" alt="">
+                            <img class="star" src="./Assets/star.png" alt="">
+                            <img class="star" src="./Assets/star.png" alt="">
+                            <img class="star" src="./Assets/star.png" alt="">
+                            <img class="star" src="./Assets/star.png" alt="">
+                            <h1 class="roboto-font startxt">7k+ Reviews</h1>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="container1">
+
+
+        <div class="contact-form">
+
+            <div class="project-enquiry" id="contact">
+
+                <div class="title center center-column project-enquiry-title">
+                    <h1 class="dark-green heading project-enquiry-head rancho-font">Still Waiting?</h1>
+                    <p class="light-green subheading top-gap project-enquiry-subhead roboto-font">Get your packages and
+                        start exploring the world with us!</p>
+                </div>
+
+                <div class="container">
+                    <div class="content roboto-font">
+                        <h2>Stay Connected</h2>
+                        <p>
+                            <b>PHONE NO:</b> +91 9585800227
+                        </p>
+                        <p>
+                            <b>EMAIL:</b> tmarakesh@gmail.com
+                        </p>
+                    </div>
+                    <div class="enquiry-form roboto-font">
+
+
+                        <form class="e-form" action="https://formsubmit.co/touristatravelneeds@gmail.com" method="POST">
+                            <label class="form-title" for="fname">Name</label>
+                            <input class="form-input" type="text" name="name" placeholder="Name" autoComplete="None" />
+
+                            <label class="form-title" for="email">Email</label>
+                            <input class="form-input" type="email" name="email" placeholder="Email"
+                                autoComplete="None" />
+
+                            <label class="form-title" for="mnumber">Phone Number</label>
+                            <input class="form-input" type="number" name="mobile" placeholder="Mobile"
+                                autoComplete="None" />
+
+                            <label class="form-title" for="fname">Travel Location</label>
+                            <select class="form-select-input">
+                                <option value="goa">Goa</option>
+                                <option value="manali">Manali</option>
+                                <option value="kashmir">Kashmir</option>
+                                <option value="andaman">Andaman</option>
+                                <option value="kerala">Kerala</option>
+                            </select>
+
+                            <label class="form-title" for="fname">Travel Package detail</label>
+                            <select class="form-select-input" value="data">
+                                <option id="en-details" value="data">Goa</option>
+                            </select>
+
+                            <label class="form-title" for="fname">Any additional queries?</label>
+                            <textarea class="form-para-input roboto-font" name="" id="" rows="3"
+                                placeholder="Say your queries here..."></textarea>
+
+                            <button class="violet-button">Submit</button>
+                        </form>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Why we are the Best Section - Developed by Surya Narayanan - 6380552829 - r.suryajeya@gmail.com -->
+
+    <div class="why-we-are-best" id="values">
+        <h1 class="rancho-font travel-color text-center">TRAVEL</h1>
+        <h1 class="rancho-font why-we "> <span class="dark-green">Why we are the</span> <span
+                class="light-green">Best?</span> </h1> <br>
+
+        <div class="why-best-card-div">
+
+            <div class="why-best-card">
+                <div class="round"> <img class="img" src="./Assets/discount.png" alt="discount-icon"> </div>
+                <h1 class=" rancho-font why-best-card-text">Discounted Pricing</h1>
+                <h1 class="roboto-font text-center why-best-card-subtext">Affordable packages with no compromise in the
+                    service that we provide. </h1>
+            </div>
+
+            <div class="why-best-card">
+                <div class="round"> <img class="img" src="./Assets/guide.png" alt="guide-icon"> </div>
+                <h1 class=" rancho-font why-best-card-text">Best Guide</h1>
+                <h1 class="roboto-font text-center why-best-card-subtext">We provide the friendly and best guide to help
+                    you out throughout the journey</h1>
+            </div>
+
+            <div class="why-best-card">
+                <div class="round"> <img class="img" src="./Assets/support.png" alt="support-icon"></div>
+                <h1 class=" rancho-font why-best-card-text">All Time Support </h1>
+                <h1 class="roboto-font text-center why-best-card-subtext">We are there to hear you 24/7 and we are ready
+                    to serve you whenever needed.</h1>
+            </div>
+
+            <div class="why-best-card">
+                <div class="round"> <img class="img" src="./Assets/facilities.png" alt="facilities-icon"></div>
+                <h1 class=" rancho-font why-best-card-text">Best Facilities</h1>
+                <h1 class="roboto-font text-center why-best-card-subtext">We provide the best facilities which are much
+                    comfortable at affordable prices</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About & Experience Section - Developed by Surya Narayanan - 6380552829 - r.suryajeya@gmail.com -->
+
+    <div class="bgimg">
+
+        <h1 class="rancho-font text-center bgtext">With our experience we <br> will serve you!</h1>
+        <div class="experience-card-div">
+
+            <div class="experience-card">
+                <h1 class="rancho-font experience-card-text1">5+</h1>
+                <h1 class="roboto-font experience-card-text2 text-center">Years of <br> Experience</h1>
+            </div>
+
+            <div class="experience-card">
+                <h1 class="rancho-font experience-card-text1">5k+</h1>
+                <h1 class="roboto-font experience-card-text2 text-center">Completed <br> Tours</h1>
+            </div>
+
+        </div>
+
+
+        <div class="experience-card-div">
+
+            <div class="experience-card">
+                <h1 class="rancho-font experience-card-text1">2k+</h1>
+                <h1 class="roboto-font experience-card-text2 text-center">Happy <br> Customers</h1>
+            </div>
+
+            <div class="experience-card">
+                <h1 class="rancho-font experience-card-text1">15+</h1>
+                <h1 class="roboto-font experience-card-text2 text-center">Hotels & <br> Restuarants</h1>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- background image for destop -->
+    <div class="bgimgdesk">
+
+        <h1 class="rancho-font  bgtext">With our experience we will serve you!</h1>
+        <div class="experience-card-div">
+
+            <div class="experience-card">
+                <h1 class="rancho-font experience-card-text1">5+</h1>
+                <h1 class="roboto-font experience-card-text2 text-center">Years of <br> Experience</h1>
+            </div>
+
+            <div class="experience-card">
+                <h1 class="rancho-font experience-card-text1">5k+</h1>
+                <h1 class="roboto-font experience-card-text2 text-center">Completed <br> Tours</h1>
+            </div>
+
+        </div>
+
+
+        <div class="experience-card-div">
+
+            <div class="experience-card">
+                <h1 class="rancho-font experience-card-text1">2k+</h1>
+                <h1 class="roboto-font experience-card-text2 text-center">Happy <br> Customers</h1>
+            </div>
+
+            <div class="experience-card">
+                <h1 class="rancho-font experience-card-text1">15+</h1>
+                <h1 class="roboto-font experience-card-text2 text-center">Hotels & <br> Restuarants</h1>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Customer Feedback Section - Developed by Achyuth - 6381552723 - achyuth2511@gmail.com -->
+
+    <div class="feedback-section">
+
+        <div class="our-destination-heading">
+            <h1 class="heading dark-green left rancho-font heading-width">
+                What our clients say <span class="light-green"> About Us </span>
+            </h1>
+        </div>
+
+        <div class="feedback-cards-div">
+            <div class="rev-card" data-aos="fade-up">
+
+                <div class="feedback-card-head">
+                    <div class="profile-head">
+                        <img src="./Assets/singleIcon.png" class="profile-img">
+
+                        <div class="feedbacker-profile">
+                            <p class="card-holder rancho-font">Balasubramanian K</p>
+                            <p class="holder-place roboto-font">Verified Customer</p>
+                        </div>
+                    </div>
+
+                    <div class="rating">
+                        <p class="roboto-font">4.8</p>
+                        <img src="./Assets/star.png" width="20px" class="star">
+                    </div>
+                </div>
+
+                <p class="roboto-font feedback-text">"The experience with Tourista - Travelneeds was great . Mr.Jayraj
+                    was very proactive and helped me plan my travel in a very short notice, even after office hours. The
+                    cab service and our escort Mr. Jayraj also provided an amazing service. He had a lot of knowledge
+                    about the local placed which saved us a lot of time.It was a pleasant experience overall. Thank
+                    you."</p>
+
+            </div>
+
+            <div class="rev-card" data-aos="fade-up">
+
+                <div class="feedback-card-head">
+                    <div class="profile-head">
+                        <img src="./Assets/singleIcon.png" class="profile-img">
+
+                        <div class="feedbacker-profile">
+                            <p class="card-holder rancho-font">Unicorngrindes</p>
+                            <p class="holder-place roboto-font">Verified Customer</p>
+                        </div>
+                    </div>
+
+                    <div class="rating">
+                        <p class="roboto-font">4.7</p>
+                        <img src="./Assets/star.png" width="20px" class="star">
+                    </div>
+                </div>
+
+                <p class="roboto-font feedback-text">"Went on a trip to Munnar and Alleppey and it was great and a
+                    memorable experience, and great arrangement was done by the tourists-travelneeds team in the hotel
+                    and houseboat and it was seamless experience. Especially the cab and driver they arranged made us
+                    feel good and safe throughout the journey and helpfull and good mannered."</p>
+
+            </div>
+
+            <div class="rev-card" data-aos="fade-up">
+
+                <div class="feedback-card-head">
+                    <div class="profile-head">
+                        <img src="./Assets/singleIcon.png" class="profile-img">
+
+                        <div class="feedbacker-profile">
+                            <p class="card-holder rancho-font">Guru Prasanth</p>
+                            <p class="holder-place roboto-font">Verified Customer</p>
+                        </div>
+                    </div>
+
+                    <div class="rating">
+                        <p class="roboto-font">4.9</p>
+                        <img src="./Assets/star.png" width="20px" class="star">
+                    </div>
+                </div>
+
+                <p class="roboto-font feedback-text">"One of the best agent ever seen, Especially food Vera level and
+                    room also we did expect this much taste and neatness. Response from the goa tube members also good.
+                    Over all enjoyable experience with worth of money."</p>
+
+            </div>
+
+            <div class="rev-card" data-aos="fade-up">
+
+                <div class="feedback-card-head">
+                    <div class="profile-head">
+                        <img src="./Assets/singleIcon.png" class="profile-img">
+
+                        <div class="feedbacker-profile">
+                            <p class="card-holder rancho-font">Madhu Keshwar</p>
+                            <p class="holder-place roboto-font">Verified Customer</p>
+                        </div>
+                    </div>
+
+                    <div class="rating">
+                        <p class="roboto-font">4.9</p>
+                        <img src="./Assets/star.png" width="20px" class="star">
+                    </div>
+                </div>
+
+                <p class="roboto-font feedback-text">"Highly recommend for Goatube... Siddhik and Gowtham bro made our
+                    Goa trip awesome🥰❤️ Good package ,Nice accommodation, Food ❤️🥰 no words to explain Just wow😍🍻
+                    perfect package 🙌 simply superb❤️"</p>
+
+            </div>
+
+            <div class="rev-card" data-aos="fade-up">
+
+                <div class="feedback-card-head">
+                    <div class="profile-head">
+                        <img src="./Assets/singleIcon.png" class="profile-img">
+
+                        <div class="feedbacker-profile">
+                            <p class="card-holder rancho-font">Parthiban S</p>
+                            <p class="holder-place roboto-font">Verified Customer</p>
+                        </div>
+                    </div>
+
+                    <div class="rating">
+                        <p class="roboto-font">4.7</p>
+                        <img src="./Assets/star.png" width="20px" class="star">
+                    </div>
+                </div>
+
+                <p class="roboto-font feedback-text">"Worth tour in Goa enjoyed lot of fun, foods r amazing, again want
+                    to enjoy the same trip & goatube ur package r worthable. Goatube.in r amazing"</p>
+
+            </div>
+
+            <div class="rev-card" data-aos="fade-up">
+
+                <div class="feedback-card-head">
+                    <div class="profile-head">
+                        <img src="./Assets/singleIcon.png" class="profile-img">
+
+                        <div class="feedbacker-profile">
+                            <p class="card-holder rancho-font">Chony Inkz</p>
+                            <p class="holder-place roboto-font">Verified Customer</p>
+                        </div>
+                    </div>
+
+                    <div class="rating">
+                        <p class="roboto-font">4.9</p>
+                        <img src="./Assets/star.png" width="20px" class="star">
+                    </div>
+                </div>
+
+                <p class="roboto-font feedback-text">"It ws a awsome trip for us in goa.
+                    Goa tube gave us the best service, and it worth for the pay. I would definitely say evryone to go to
+                    goa through goa tube and sidhiq bro and Our guide rizvi bro helped us with evrything and thy guided
+                    us in the best way, Food wich thy gave ws standard 😍👌👌👌"</p>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer Card Section - Developed by Surya Narayanan - 6380552829 - r.suryajeya@gmail.com -->
+
+    <div class="getstarted">
+
+        <div class="getstartedbox">
+
+            <h1 class="text-center dark-green rancho-font getstarttext1 ">
+                Get Started with <br><span class="white"> Tourista Travelneeds </span></h1>
+            <h1 class="roboto-font getstarttext2desk text-center dark-green">Explore different places and different
+                culture with the facinating services that we provide</h1>
+            <a href="./packages.html"><button class="button-lg">Explore</button></a>
+
+        </div>
+
+    </div>
+
+    <!-- Footer - A2Z Techvalley Template - a2ztechvalley2021@gmail.com -->
+
+    <div class="footer">
+
+        <div class="footer-detail1">
+
+            <div class="footer-left-details-div white">
+                <h1 class="rancho-font footer-heading company-name light-green">Tourista Travelneeds</h1>
+                <div class="roboto-font company-details">We strive to provide the best service <br>
+                    and we make attachment with the <br>
+                    nature by providing and unforgettable <br>
+                    experience</div>
+
+                <h2 class=" roboto-font social-media-text">Follow us on Social Media.</h2>
+
+                <div class="social-media">
+
+                    <div class="icon-div">
+                        <a href="https://www.instagram.com/__travel_needs__/?hl=en" class="explore-link"><img
+                                src="./Assets/instagram.svg" alt=""></a>
+                    </div>
+
+                    <div class="icon-div">
+                        <a href="https://www.linkedin.com/company/goatube-in/?originalSubdomain=in"
+                            class="explore-link"><img src="./Assets/linked.svg" alt=""></a>
+                    </div>
+
+                    <div class="icon-div">
+                        <a href="https://www.facebook.com/TouristaTravelneeds/" class="explore-link"><img
+                                class="icon-div-icon" src="./Assets/facebook.svg" alt=""></a>
+                    </div>
+
+                    <div class="icon-div">
+                        <a href="https://twitter.com/Travelneeds2" class="explore-link"><img class="icon-div-icon"
+                                src="./Assets/twitter.svg" alt=""></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-right-details-div">
+
+            <div class="footer-details white">
+                <h2 class="rancho-font light-green ">Navigation</h2>
+                <a href="#explore" class="explore-link">
+                    <p class="roboto-font footer-mail">Discover</p>
+                </a>
+                <a href="#values" class="explore-link">
+                    <p class="roboto-font footer-mail">Values</p>
+                </a>
+                <a href="./packages.html" class="explore-link">
+                    <p class="roboto-font footer-mail">Best Packages</p>
+                </a>
+                <a href="#contact" class="explore-link">
+                    <p class="roboto-font footer-mail">Contact</p>
+                </a>
+            </div>
+
+            <div class="footer-details white">
+                <h2 class="rancho-font light-green">Links</h2>
+                <a href="https://www.instagram.com/__travel_needs__/?hl=en" class="explore-link">
+                    <p class="roboto-font footer-mail">Instagram</p>
+                </a>
+                <a href="https://www.linkedin.com/company/goatube-in/?originalSubdomain=in" class="explore-link">
+                    <p class="roboto-font footer-mail">LinkedIn</p>
+                </a>
+                <a href="https://www.facebook.com/TouristaTravelneeds/" class="explore-link">
+                    <p class="roboto-font footer-mail">Facebook</p>
+                </a>
+                <a href="https://twitter.com/Travelneeds2" class="explore-link">
+                    <p class="roboto-font footer-mail">Twitter</p>
+                </a>
+            </div>
+
+            <div class="footer-details white" id="contact">
+                <h2 class="rancho-font light-green">Contact Us</h2>
+                <p class="roboto-font footer-number">+91 9585800227 </p>
+                <p class="roboto-font footer-number">+91 9585877227</p>
+                <p class="roboto-font footer-address">Reg Office No ,1/62-21A, 2nd street Ravi colony st.Thomas Mount,
+                    Chennai-600016</p>
+                <br>
+                <br>
+                <p class="roboto-font footer-address">website counter</p>
+                <br>
+                <a href="https://www.tospace.in" title="website counter"><img
+                        src="https://counter9.stat.ovh/private/freecounterstat.php?c=33uyyrzd9xwm4bmaqq2jn6yg5y76mm7z"
+                        border="0" title="website counter" alt="website counter"></a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- JavaScript Links -->
+    <script src="./navbar.js"></script>
+    <script src="./packages.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init(); </script>
+    <script>
+
+        window.addEventListener("load", function () {
+            setTimeout(
+                function open(event) {
+                    document.querySelector(".popup").style.display = "block";
+                    
+                },
+                1000
+            )
+        });
+
+
+        document.querySelector("#close").addEventListener("click", function () {
+            document.querySelector(".popup").style.display = "none";
+        });
+    </script>
+
+</body>
+
+</html>
